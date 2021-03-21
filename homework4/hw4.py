@@ -215,9 +215,7 @@ def task1():
     # (5.666666666666667, 6.333333333333333)]
     print "End of number 1."
 
-
-
-
+    
 def task2():
     # Load the data from CSV file (unlabeled rn)
     data, labels = load_data("iris.data")
