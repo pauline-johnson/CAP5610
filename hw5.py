@@ -129,7 +129,7 @@ def comparek(data):
     # plt.show()
 
 
-# f) The user-based collaborative filtering is the best.
+# d) The item-based collaborative filtering is the best.
 # The RMSE and MAE score means of each model's 5-fold cross validation are:
 # Probabilistic Matrix Factorization: RMSE=1.0060, MAE=0.7740
 # User-based CF: RMSE=0.9943, MAE=0.9939
@@ -143,10 +143,9 @@ compare_similarities(dataset)
 
 # f) The number of neighbors impacts the performance of user-based
 # cf, but not item-based cf.
-comparek(dataset)
-
 # g) The best k for user-based is 12.
 # It didn't look like the k mattered very much for item based.
+comparek(dataset)
 
 # Show figures for e and f.
 plt.show()
